@@ -1,205 +1,136 @@
-# Awesome-Purchase-Order-Management
+# Awesome Purchase Order Management 🛒
 
-## Top Purchase Order Management Platforms Ecosystem
+![Awesome Purchase Order Management Banner](assets/banner.svg)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Purchase-Order-Management?style=social" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Purchase-Order-Management?style=social" alt="Forks"/>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Purchase-Order-Management?color=blue" alt="License"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Purchase Requisitions, Approvals, PO Creation, Receiving, Supplier Coordination & Spend Control*
+## 📌 Top Purchase Order Management Platforms & Procure-to-Pay Ecosystem
 
-**Last updated: September 2026**
+**A Curated Ecosystem of Commercial SaaS Platforms & Open-Source GitHub Projects for Purchase Requisitions, Spend Control, Vendor Coordination & Automated Approval Workflows.**
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Purchase Order Management**. These systems help organizations create, approve, track, and manage purchase orders, control spend, and streamline procure-to-pay workflows.
-
-
-
-**Examples** include Precoro, Procurify, Tradogram, Order.co, Coupa, Proactis, Spendesk, Zahara, and PairSoft (the category leaders).
-
-
-
-**Open-source emphasis**: Dedicated best-of-breed PO tools are mostly commercial. Strong open options exist inside full ERP systems — especially **Odoo** and **ERPNext** — along with community purchase workflow modules. This section highlights the best available open alternatives.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Precoro](https://precoro.com/)**  
-
-  Cloud procurement and purchase order platform focused on requests, approvals, POs, budgets, and supplier coordination for mid-market teams.
-
-
-
-- **[Procurify](https://www.procurify.com/)**  
-
-  Spend management and purchasing platform with strong visibility, approval routing, and purchase order control.
-
-
-
-- **[Tradogram](https://www.tradogram.com/)**  
-
-  Procurement and purchase order software offering requests, POs, inventory links, and accounting integrations, with accessible entry options.
-
-
-
-- **[Order.co](https://www.order.co/)**  
-
-  Purchasing and order management platform aimed at simplifying procurement workflows and supplier ordering.
-
-
-
-- **[Coupa](https://www.coupa.com/)**  
-
-  Enterprise business spend management platform with robust procurement, purchase order, catalog, and invoice capabilities.
-
-
-
-- **[Proactis](https://www.proactis.com/)**  
-
-  Spend control and procurement solution supporting purchase-to-pay processes for organizations seeking stronger governance.
-
-
-
-- **[Spendesk](https://www.spendesk.com/)**  
-
-  Spend management platform that includes purchasing controls, approvals, and payment workflows alongside expense features.
-
-
-
-- **[Zahara](https://www.zahara.com/)**  
-
-  Purchase order and procurement software focused on approvals, budgets, and streamlined buying processes.
-
-
-
-- **[PairSoft](https://www.pairsoft.com/)**  
-
-  Accounts payable and procurement-related solutions that support purchasing and document automation workflows.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Odoo Purchase / Procurement](https://github.com/odoo/odoo)**  
-
-  Full-featured open-source ERP module covering purchase requests, RFQs, purchase orders, receipts, vendor bills, and multi-level approvals.
-
-
-
-- **[ERPNext Buying / Procurement](https://frappe.io/erpnext)**  
-
-  Open-source ERP procurement suite with material requests, RFQs, supplier quotations, purchase orders, and integrated inventory/accounting.
-
-
-
-- **[OCA Purchase Workflow modules](https://github.com/OCA/purchase-workflow)**  
-
-  Community-maintained Odoo addons that extend purchase order processes, approvals, delivery splits, advance payments, and related workflows.
-
-
-
-- **[Other open ERP purchasing modules](https://github.com/)**  
-
-  Additional open-source ERP and business systems that include purchasing and PO management capabilities for small and mid-sized organizations.
-
-
-
-- **[Custom PO and approval workflow open projects](https://github.com/)**  
-
-  Lightweight community tools for creating, approving, and tracking purchase orders outside full ERP suites.
-
-
-
-- **[Supplier portal and RFQ open experiments](https://github.com/)**  
-
-  Projects that enable supplier collaboration on quotations and order confirmations.
-
-
-
-- **[Budget and spend-control open helpers](https://github.com/)**  
-
-  Tools that support budget checks and basic spend visibility alongside purchasing workflows.
-
-
-
-- **[Document and e-signature open integrations](https://github.com/)**  
-
-  Components for generating, sending, and tracking formal purchase order documents.
-
-
-
-- **[Inventory-linked purchasing open modules](https://github.com/)**  
-
-  Systems that connect stock levels and reordering rules directly to purchase order generation.
-
-
-
-- **[Reporting and audit open dashboards](https://github.com/)**  
-
-  Open analytics components for monitoring PO status, cycle times, and supplier performance.
-
-
-
-### Additional Strong Open-Source Options
-
-- Starting with **Odoo** or **ERPNext** when you want integrated purchase orders inside a broader open ERP.
-
-- Extending Odoo with **OCA purchase-workflow** modules for more advanced process control.
-
-- Building lightweight custom approval flows on open frameworks for very simple needs.
-
-- Accepting that polished supplier networks, advanced catalog management, deep multi-ERP integrations, and enterprise-grade spend analytics still favor commercial platforms (Coupa, Precoro, Procurify, etc.).
-
-- Using open ERP purchasing modules for SMBs while adopting commercial tools for complex or highly regulated procurement environments.
-
-
-
-**Frameworks for building custom systems**: Deploy Odoo or ERPNext → configure purchase workflows and approval rules → manage RFQs and POs → receive goods and match invoices → report on spend and supplier performance. This provides a complete open procure-to-pay foundation. Commercial platforms remain the practical choice for organizations that need specialized procurement UX, rapid supplier onboarding, or advanced spend intelligence without running a full ERP.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Purchase order and procurement systems affect financial controls, compliance, and supplier relationships. Open-source or self-hosted solutions require proper access control, audit trails, and integration with accounting processes. Always align with internal policies and external regulations. This list is not financial, legal, or procurement advice.
-
-
+> 💡 **SEO & Market Summary**: Dedicated **Purchase Order Management Software** and **Procure-to-Pay (P2P)** solutions help modern finance, operations, and procurement teams issue RFQs, process purchase requisitions, automate approval matrix routing, match 3-way invoices, and control enterprise spend.
 
 ---
 
-**Made for procurement, finance, and operations teams who want clear control over purchasing.**
+## 📑 Table of Contents
 
-Let's keep buying processes efficient, auditable, and as open as practical.
+- [☁️ SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+> 📊 **Procurement Software Market Size & Fragmentation Analysis**:  
+> The global procurement and purchase order management software market is estimated at **$10.5 Billion in 2026** and is projected to expand at a CAGR of 10.2% through 2032. The sector is **moderately fragmented** — while enterprise giants like Coupa dominate large corporate spend management, mid-market and SMB segments host a vibrant array of specialized SaaS contenders (Precoro, Procurify, Spendesk, Tradogram) competing on ease of deployment, UX, and AI-driven intake workflows rather than a single "winner-take-all" monopoly.
+
+*Sorted by Company Size / Valuation (Descending)*
+
+| Product | Description | Company Size (Valuation / Revenue) | Starting Price | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Coupa](https://www.coupa.com/)** 🏢 | Enterprise business spend management platform with robust procurement, purchase order, catalog, and invoice capabilities. | **~$8.0B Valuation** (~$818M Revenue, Acquired by Thoma Bravo) | Enterprise custom pricing (starts ~ $50,000 / year) | No free trial for main platform; 30-day trial for Supplier Portal Advanced |
+| **[Spendesk](https://www.spendesk.com/)** 🦄 | Spend management platform that includes purchasing controls, approvals, and payment workflows alongside expense features. | **~$1.5B Valuation (Unicorn)** (~$50M–$114M ARR) | Custom pricing based on business size & tier | No free trial or free plan available (Demo available) |
+| **[Procurify](https://www.procurify.com/)** 🚀 | Spend management and purchasing platform with strong visibility, approval routing, and purchase order control. | **~$83M Funding / ~$55M ARR** | $1,000 / month (custom-quoted base tier) | No free trial or free plan available (Demo available) |
+| **[Order.co](https://www.order.co/)** ⚡ | Purchasing and order management platform aimed at simplifying procurement workflows and supplier ordering. | **~$44.7M Funding / ~$29M ARR** | Custom pricing (typically for mid-market/enterprise) | No free trial or free plan available (Demo available) |
+| **[PairSoft](https://www.pairsoft.com/)** 💼 | Accounts payable and procurement-related solutions that support purchasing and document automation workflows. | **~$20M–$27M ARR** | Custom pricing (~ $10,000 / year starting estimate) | No free trial or free plan available (Demo available) |
+| **[Precoro](https://precoro.com/)** 🎯 | Cloud procurement and purchase order platform focused on requests, approvals, POs, budgets, and supplier coordination for mid-market teams. | **~$5M–$10M ARR** (Bootstrapped / Private) | $499 / month (billed annually) | 14-day free trial (No permanent free tier) |
+| **[Proactis](https://www.proactis.com/)** 🏛️ | Spend control and procurement solution supporting purchase-to-pay processes for organizations seeking stronger governance. | **~€9.3M Revenue** (Acquired by Cafe Bidco) | Enterprise custom pricing (varies by module/users) | No free trial or free plan available (Demo available) |
+| **[Tradogram](https://www.tradogram.com/)** 📊 | Procurement and purchase order software offering requests, POs, inventory links, and accounting integrations, with accessible entry options. | **~$1M ARR** (Private / Bootstrapped) | $99 / month (Essentials plan) | Free-forever plan limited to 1 user and 10 POs / month |
+| **[Zahara](https://www.zahara.com/)** ⚙️ | Purchase order and procurement software focused on approvals, budgets, and streamlined buying processes. | **~$565K Funding / Seed Stage** | £118 / month (~ $150/mo billed annually) | 14-day free trial (No permanent free tier) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+*Dedicated best-of-breed PO tools are mostly commercial. Strong open-source alternatives exist within full ERP suites and modular purchasing addons.*
+
+*Sorted by GitHub Star Count (Descending)*
+
+- **[Odoo Purchase / Procurement](https://github.com/odoo/odoo)**  
+  [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+  Full-featured open-source ERP module covering purchase requests, RFQs, purchase orders, receipts, vendor bills, and multi-level approvals.
+
+- **[ERPNext Buying / Procurement](https://github.com/frappe/erpnext)**  
+  [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+  Open-source ERP procurement suite with material requests, RFQs, supplier quotations, purchase orders, and integrated inventory/accounting.
+
+- **[Akaunting](https://github.com/akaunting/akaunting)**  
+  [![Akaunting Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers)  
+  Free and online accounting software designed for small businesses and freelancers with purchase order and vendor bill management.
+
+- **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)**  
+  [![Invoice Ninja Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)  
+  Open-source invoicing, purchase order generation, expense tracking, and client management platform.
+
+- **[Apache OFBiz Procurement](https://github.com/apache/ofbiz)**  
+  [![Apache OFBiz Stars](https://img.shields.io/github/stars/apache/ofbiz?style=social&color=white)](https://github.com/apache/ofbiz/stargazers)  
+  Suite of enterprise applications that integrate and automate business processes including order management, procurement, and supply chain management.
+
+- **[BidMaster-Pro](https://github.com/guangshu100/BidMaster-Pro)**  
+  [![BidMaster-Pro Stars](https://img.shields.io/github/stars/guangshu100/BidMaster-Pro?style=social&color=white)](https://github.com/guangshu100/BidMaster-Pro/stargazers)  
+  AI-driven intelligent procurement and bidding management platform automating tender parsing, RFQ creation, and supplier evaluations.
+
+- **[OCA Purchase Workflow Modules](https://github.com/OCA/purchase-workflow)**  
+  [![OCA Purchase Workflow Stars](https://img.shields.io/github/stars/OCA/purchase-workflow?style=social&color=white)](https://github.com/OCA/purchase-workflow/stargazers)  
+  Community-maintained Odoo addons extending purchase order processes, approval matrix rules, delivery splits, and advance payment workflows.
+
+- **[Leihs Inventory & Procurement](https://github.com/leihs/leihs)**  
+  [![Leihs Stars](https://img.shields.io/github/stars/leihs/leihs?style=social&color=white)](https://github.com/leihs/leihs/stargazers)  
+  Open-source inventory management, gear lending, and purchase request tracking system.
+
+- **[Tryton Purchase Module](https://github.com/tryton/tryton)**  
+  [![Tryton Stars](https://img.shields.io/github/stars/tryton/tryton?style=social&color=white)](https://github.com/tryton/tryton/stargazers)  
+  Modular open-source business application framework featuring robust purchasing, supply chain, and PO approval capabilities.
+
+- **[OpenProcurement API](https://github.com/openprocurement/openprocurement.api)**  
+  [![OpenProcurement Stars](https://img.shields.io/github/stars/openprocurement/openprocurement.api?style=social&color=white)](https://github.com/openprocurement/openprocurement.api/stargazers)  
+  Open-source data standard software and procurement core powering public e-procurement systems and tender auctions.
+
+- **[OpenXE ERP](https://github.com/OpenXE-org/OpenXE)**  
+  [![OpenXE Stars](https://img.shields.io/github/stars/OpenXE-org/OpenXE?style=social&color=white)](https://github.com/OpenXE-org/OpenXE/stargazers)  
+  Open-source ERP system providing purchasing, CRM, logistics, and inventory management for small businesses.
+
+---
+
+### 💡 Open-Source Procurement Deployment Guide
+
+1. **Integrated ERP Path**: Deploy **Odoo** or **ERPNext** when you require PO workflows tightly linked to general ledgers, stock levels, and warehouse receipts.
+2. **Modular Addons Path**: Extend Odoo with **OCA purchase-workflow** for advanced multi-level approval hierarchies, requisition thresholds, and vendor portals.
+3. **Fintech / Micro-SaaS Path**: Deploy **Akaunting** or **Invoice Ninja** for lightweight PO generation, expense tracking, and bill payments.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Purchase-Order-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Purchase-Order-Management&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository. 🍴
+2. Add or update entries in `README.md` maintaining the existing table or list format. ✏️
+3. Ensure links, pricing notes, and descriptions are factual and accurate. 🔍
+4. Submit a Pull Request (PR) with a brief summary of your updates. 🚀
+
+---
+
+## ⚠️ Disclaimer
+
+- This curated list is **community-maintained** for informational and research purposes only.
+- Purchase order systems affect internal financial controls, regulatory compliance, and vendor contracts. Always verify commercial terms and audit requirements with official software vendors or procurement advisors.
+
+---
+
+<p align="center">
+  <b>Curated with ❤️ for Procurement, Finance, and Supply Chain Operations Teams.</b>
+</p>
