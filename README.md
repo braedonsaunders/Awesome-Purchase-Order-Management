@@ -99,6 +99,10 @@
   [![OpenXE Stars](https://img.shields.io/github/stars/OpenXE-org/OpenXE?style=social&color=white)](https://github.com/OpenXE-org/OpenXE/stargazers)  
   Open-source ERP system providing purchasing, CRM, logistics, and inventory management for small businesses.
 
+- **[OpenBooks](https://github.com/braedonsaunders/openbooks)**  
+  [![OpenBooks Stars](https://img.shields.io/github/stars/braedonsaunders/openbooks?style=social&color=white)](https://github.com/braedonsaunders/openbooks/stargazers)  
+  Mid-market open-source accounting/ERP with vendor bills, inventory, approvals, and purchase workflows for multi-entity businesses.
+
 ---
 
 ### 💡 Open-Source Procurement Deployment Guide
